@@ -5,6 +5,7 @@ Description: Use an OOP language of your choice, create an automatic Grading Too
 3.	Score
 
 This tool is for use by teachers only, not students. There is no authentication, user permission, or user interface (UI) in the tool. the tool is a console application that can be executed at command line, e.g., Windows' CMD or Mac's Terminal. The tool will make a database connection to store the generated feedback for each student, their names and feedback in several database tables in an online database.
+
 Student code is assumed to have already been downloaded on your localhost computer, and named firstname_lastname.[LANGAGE EXTENSION], where LANGUAGE EXTENSION can be cpp, java, c, py, etc.
 •	Example: jane_doe.cpp
 
@@ -19,15 +20,17 @@ to output their own US-based mobile phone number in string, consisting of:
 1.	A 3-digit area code, followed by a dash (-)
 2.	A 3-digit number, followed by a dash (-)
 3.	A 4-digit number
+4.	
 Example of a valid phone number string: 999-333-4444 Your Grading Tool has the following features:
 1.	Validate the above referenced phone-number format from each student's output.
 2.	Detect plagiarism. Namely, each phone number should be unique. If there are multiple students with the same number, report them (see SAMPLE OUTPUT).
 3.	Generate automatic feedback corresponding to one of the following strings:
+
 o	"Good work", if student correctly outputs a valid phone number string. The student receives a score of 1.
- 
 o	"Incorrect format", if student has the wrong format. The student receives a score of 0.
 o	"Same number used by another student. Plagiarism detected". The student receives a score of –
-1.
+
+
 4.	The Tool will make a database connection to an online database hosted externally (e.g., Google, Amazon, etc.)
 5.	The Tool will store each student’s name in a database table called “tblStudents”.
 6.	The Tool will store each student’s feedback in a database table called “tblFeedback”.
