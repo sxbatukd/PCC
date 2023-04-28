@@ -20,7 +20,7 @@ to output their own US-based mobile phone number in string, consisting of:
 1.	A 3-digit area code, followed by a dash (-)
 2.	A 3-digit number, followed by a dash (-)
 3.	A 4-digit number
-4.	
+	
 Example of a valid phone number string: 999-333-4444 Your Grading Tool has the following features:
 1.	Validate the above referenced phone-number format from each student's output.
 2.	Detect plagiarism. Namely, each phone number should be unique. If there are multiple students with the same number, report them (see SAMPLE OUTPUT).
